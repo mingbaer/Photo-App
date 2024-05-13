@@ -14,6 +14,7 @@
 		535C76E72BF19EAF0061FB32 /* Photo_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535C76E62BF19EAF0061FB32 /* Photo_AppTests.swift */; };
 		535C76F12BF19EAF0061FB32 /* Photo_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535C76F02BF19EAF0061FB32 /* Photo_AppUITests.swift */; };
 		535C76F32BF19EAF0061FB32 /* Photo_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535C76F22BF19EAF0061FB32 /* Photo_AppUITestsLaunchTests.swift */; };
+		535C77002BF1A2F50061FB32 /* Image Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535C76FF2BF1A2F40061FB32 /* Image Picker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		535C76EC2BF19EAF0061FB32 /* Photo AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photo AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		535C76F02BF19EAF0061FB32 /* Photo_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_AppUITests.swift; sourceTree = "<group>"; };
 		535C76F22BF19EAF0061FB32 /* Photo_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		535C76FF2BF1A2F40061FB32 /* Image Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image Picker.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				535C76D52BF19EAD0061FB32 /* Photo_AppApp.swift */,
 				535C76D72BF19EAD0061FB32 /* ContentView.swift */,
+				535C76FF2BF1A2F40061FB32 /* Image Picker.swift */,
 				535C76D92BF19EAF0061FB32 /* Assets.xcassets */,
 				535C76DB2BF19EAF0061FB32 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				535C77002BF1A2F50061FB32 /* Image Picker.swift in Sources */,
 				535C76D82BF19EAD0061FB32 /* ContentView.swift in Sources */,
 				535C76D62BF19EAD0061FB32 /* Photo_AppApp.swift in Sources */,
 			);
@@ -425,6 +429,7 @@
 				DEVELOPMENT_TEAM = SJGQMW9HC5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to access your camera for this app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +459,7 @@
 				DEVELOPMENT_TEAM = SJGQMW9HC5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to access your camera for this app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
